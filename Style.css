@@ -1,0 +1,58 @@
+
+
+/* Google Fonts */
+
+@import url(https://fonts.googleapis.com/css?family=Cardo|Lato:700,400,400italic);
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: "Cardo", serif;
+  font-weight: 400;
+}
+p,a,li,blockquote {
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+}
+
+body {
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+/*Cover*/
+#cover {
+  color: #eee;
+  background-image: url('../Images/scuba_2.jpg');
+  background-repeat: no-repeat;
+  position: center;
+  background-size: cover, cover;
+  height: 545px;
+  border-bottom: 8px solid #eee;
+}
+
+#img {
+  border-bottom: 8px solid #eee;
+  background-color: aqua;
+}
+
+.img header {
+  position: center;
+}
+
+.image {
+  padding: 10px;
+  margin: 10px;
+  border: 15px;
+  border-color: #000;
+  width: 500px;
+  height: 500px;
+}
+
+#video {
+  text-align: center;
+  padding: 50px;
+  background-color: turquoise;
+  border-bottom: 8px solid #eee;
+}
+
